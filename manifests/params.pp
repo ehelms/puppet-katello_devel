@@ -19,6 +19,9 @@ class katello_devel::params {
   $rvm_ruby = '2.5'
   $rvm_branch = 'stable'
 
+  $use_scl_ruby = false
+  $scl_ruby = 'rh-ruby25'
+
   $manage_bundler = true
 
   $initial_organization = 'Default Organization'
