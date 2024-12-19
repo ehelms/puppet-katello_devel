@@ -179,4 +179,6 @@ class katello_devel (
     group   => $group,
     mode    => '0755',
   }
+
+  class { 'advisor': }
 }
